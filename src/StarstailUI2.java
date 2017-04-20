@@ -97,7 +97,7 @@ public class StarstailUI2 {
         weighty = 0;
         anchor = GridBagConstraints.NORTHWEST;
         fill = GridBagConstraints.NONE;
-        inset = new Insets(insettop,insetleft,insetbottom,insetright);
+        inset = new Insets(60,insetleft,insetbottom,insetright);
         ipadx = 0;
         ipady = 0;
         c = new GridBagConstraints(gridx,gridy,gridwidth,gridheight,weightx,weighty,anchor,fill,inset,ipadx,ipady);
