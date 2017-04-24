@@ -5,7 +5,7 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-public class StarTailStudioUI {
+public class StarTailStudioUI extends WindowAdapter implements ActionListener{
 
     public StarTailStudioUI(){
 
@@ -60,8 +60,9 @@ public class StarTailStudioUI {
             }
         });
 
-
     }
+
+
 
     public static void main(String args[]){
 
